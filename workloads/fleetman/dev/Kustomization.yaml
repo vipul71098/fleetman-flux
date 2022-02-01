@@ -1,4 +1,6 @@
 kind: Kustomization
+metadata:
+  name: fleetman
 resources:
   - ../base/api-gateway
   - ../base/webapp
