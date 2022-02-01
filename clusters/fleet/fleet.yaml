@@ -8,6 +8,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./workloads/fleetman/dev
+  path: ./workloads/fleet/dev
   prune: true
   validation: client

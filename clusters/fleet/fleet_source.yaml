@@ -7,3 +7,4 @@ spec:
   interval: 30s
   ref:
     branch: main
+  url: https://github.com/vipul71098/fleetman-flux
