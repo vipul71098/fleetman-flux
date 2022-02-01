@@ -1,7 +1,8 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
 metadata:
   name: api-gateway
+  namespace: fleetman
 spec:
   selector:
     matchLabels:
