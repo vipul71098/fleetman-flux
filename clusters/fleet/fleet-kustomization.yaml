@@ -11,4 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: fleetman
-  targetNamespace: fleetman
+  targetNamespace: flux-system
