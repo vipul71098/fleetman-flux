@@ -3,4 +3,5 @@ metadata:
   name: fleetman
 resources:
   - ../base/api-gateway
+  - ../base/nginx
   - ../base/webapp
